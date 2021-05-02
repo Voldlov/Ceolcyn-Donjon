@@ -16,7 +16,22 @@ class Log
     //GETTER + SETTER
 
     //CONSTRUCTEUR
-
+    Log::Log(int mode, int id) {
+        switch (mode) {
+        case 0 :
+            //ajout du cheminAct
+            //création du cheminLog avec id
+            break;
+        case 1 :
+            //ajout du cheminAct
+            //création du cheminLog avec id
+            break;
+        case 2 :
+            //ajout du cheminAct
+            //création du cheminLog avec id
+            break;
+        }
+    }
     //METHODES
 
     void open(string chemin)
